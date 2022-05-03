@@ -1,0 +1,58 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.counter-app {
+    width: 40rem;
+    border: 1px solid gray;
+    padding: 1rem;
+    background-color: rgb(47, 55, 58);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.counter-app > * {
+    margin-bottom: 2rem;
+}
+
+.count {
+    font-size: 4rem;
+}
+
+.buttons button {
+    padding: 1rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.subtrair {
+   background-color: orangered; 
+}
+
+button.reset {
+    background-color: white;
+    color: black;
+    
+}
+
+.add {
+    background-color: green;
+}
